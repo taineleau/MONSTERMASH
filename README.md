@@ -41,9 +41,15 @@ The dataset is under `data/`. We use labelme to annotate the dataset.
 
 ##### kraken
 
-Install `https://github.com/mittagessen/kraken`, and we use 4.3 in our project.
+1. Install `https://github.com/mittagessen/kraken`, and we use 4.3 in our project.
 
-checkout `models/kraken_pipe.ipynb` for inference.
+2. Download the model:
+
+```
+wget https://github.com/OpenITI/arabic_script_ocr_models/blob/main/ms_mellon_print_layout.mlmodel
+```
+
+3. Run script at `models/kraken_pipe.ipynb` for inference code.
 
 ##### TESTR
 
